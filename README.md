@@ -43,18 +43,22 @@ if __name__ == "__main__":
 
 # Hasil
 **Awal Mula**
+
 ![Cuplikan layar 2024-12-09 142056(2)](https://github.com/user-attachments/assets/df156b46-4adb-4a95-ad15-9e0b6152dfd4)
 
 
 **Setelah menginput Nama, NIM, dan Jurusan**
+
 ![Cuplikan layar 2024-12-09 142056](https://github.com/user-attachments/assets/69dd4098-3e8c-4ccf-aa53-f4dca987701d)
 
 
 **Setelah mengubah Hasil**
+
 ![Cuplikan layar 2024-12-09 142131](https://github.com/user-attachments/assets/46895839-4bfc-4dfc-8bde-9885171a5f21)
 
 
 **Setelah dihapus salah satu hasil**
+
 ![Cuplikan layar 2024-12-09 142145](https://github.com/user-attachments/assets/4883da50-1554-4e65-b509-9f7f0b4be0a4)
 
 
