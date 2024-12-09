@@ -18,6 +18,7 @@ class MainApp:
         self._create_widgets()
 
     def _create_widgets(self):
+        """Membuat tombol utama aplikasi."""
         self.button_input = tk.Button(self.master, text="Input Mahasiswa", command=self.open_input_form)
         self.button_input.pack(pady=10)
 
@@ -25,12 +26,15 @@ class MainApp:
         self.button_view.pack(pady=10)
 
     def open_input_form(self):
+        """Membuka form input di jendela baru."""
         self._open_new_window(InputForm)
 
     def open_mahasiswa_view(self):
+        """Membuka daftar mahasiswa di jendela baru."""
         self._open_new_window(MahasiswaView)
 
     def _open_new_window(self, view_class):
+        """Membantu membuka jendela baru dengan kelas tampilan tertentu."""
         new_window = tk.Toplevel(self.master)
         view_class(new_window, self.data_mahasiswa)
 
